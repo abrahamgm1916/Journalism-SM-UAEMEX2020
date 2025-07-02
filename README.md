@@ -2,27 +2,15 @@
 
 Repositorio para análisis de discurso mediático utilizando [Voyant Tools](https://voyant-tools.org/), centrado en la cobertura del paro estudiantil en la UAEMex durante el año 2020.
 
-## 📄 Descripción del proyecto
-
 Este proyecto utiliza herramientas de análisis textual y visualización para explorar el lenguaje, la frecuencia de términos y los marcos discursivos en notas periodísticas sobre el paro estudiantil. Fue desarrollado como parte de un proceso de investigación académica.
 
 ## 📊 Visualización del notebook interactivo
 
-🔗 **[Haz clic aquí para ver el notebook exportado de Voyant Tools](https://abrahamgm1916.github.io/Analisis-de-notas-period-sticas-en-Voyant-Tools-Paro-UAEMex-2020/spyral.html)**
-
+<section id='h91bypjp' class='notebook-editor-wrapper notebookcodeeditorwrapper'>
+<div class='notebookwrappercounter'>3</div><div class='notebook-code-editor'>
+<div class="CodeMirror cm-s-default CodeMirror-wrap" style="min-height: 51px; height: auto;"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" style="min-height: 51px;"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 35px; min-height: 25px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 17px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -30px; width: 30px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" aria-hidden="true" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">myCorpus</span>.<span class="cm-property">tool</span>(<span class="cm-string">""</span>,{<span class="cm-string cm-property">"stopList"</span>:<span class="cm-string">"keywords-d70743f58e34d7bd56709f1a05af8fb5"</span>,<span class="cm-string cm-property">"panels"</span>:<span class="cm-string">"cirrus,reader,trends,summary,contexts"</span>});</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 35px; width: 1px; border-bottom: 0px solid transparent; top: 25px;"></div><div class="CodeMirror-gutters" style="height: 60px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div>
+</div>
+<pre class='notebook-code-editor-raw editor-mode-javascript'>myCorpus.tool("",{"stopList":"keywords-d70743f58e34d7bd56709f1a05af8fb5","panels":"cirrus,reader,trends,summary,contexts"});</pre>
+<div class='notebook-code-results'>
+<body class=""><iframe style="width: 90%; height: 350px" src="https://voyant-tools.org/?corpus=6fbfc517623c32c34c0ae9764044dcad&amp;stopList=keywords-d70743f58e34d7bd56709f1a05af8fb5&amp;panels=cirrus%2Creader%2Ctrends%2Csummary%2Ccontexts"></iframe></body>
 El archivo contiene una visualización interactiva generada con *Voyant Tools*, incluyendo nubes de palabras, líneas de tendencia y contexto textual de los corpus analizados.
-
-## 📁 Estructura del repositorio
-
-- `spyral.html` – Exportación del notebook desde Voyant Tools
-- `textos/` – Archivos fuente del corpus analizado (por subir)
-- `README.md` – Este documento de introducción
-
-## 🧠 Herramientas utilizadas
-
-- [Voyant Tools](https://voyant-tools.org/)
-- GitHub Pages (para visualización web del notebook)
-
----
-
-✍️ *Desarrollado por Abraham González, estudiante de Comunicación.*
