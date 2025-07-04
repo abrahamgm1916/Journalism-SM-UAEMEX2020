@@ -1,4 +1,3 @@
-
 Repositorio para análisis de discurso mediático utilizando [Voyant Tools](https://voyant-tools.org/){:target="_blank"}, centrado en la cobertura del paro estudiantil en la UAEMex durante el año 2020.
 
 Este proyecto utiliza herramientas de análisis textual y visualización para explorar el lenguaje, la frecuencia de términos y los marcos discursivos en notas periodísticas sobre el paro estudiantil. Fue desarrollado como parte de un proceso de investigación académica.
